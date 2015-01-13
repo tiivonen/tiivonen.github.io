@@ -184,14 +184,30 @@ th {
 html {
   background: url("../images/inthisriver.jpg") no-repeat center center fixed;
 }
-h1 {
+.container {
+  display: inline-block;
   position: absolute;
   left: 20%;
   top: 20%;
+  text-align: center;
+}
+.container h1 {
   color: #fff;
   font-size: 1.2em;
+  font-variant: small-caps;
   letter-spacing: 0.4em;
-  display: inline-block;
+  display: block;
   padding: 15px 25px;
   border: 1px solid #fff;
+}
+.container .quote-block {
+  display: inline-block;
+  margin: 0 auto;
+}
+.container p {
+  text-align: right;
+  font-size: 0.8em;
+  margin: 0;
+  font-family: 'Marck Script', cursive;
+  color: #fff;
 }
