@@ -1,0 +1,15 @@
+{
+  "name": "rupture-by-jenius",
+  "homepage": "https://github.com/jenius/rupture",
+  "version": "0.6.1",
+  "_release": "0.6.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.6.1",
+    "commit": "1b33610a20b671256e956d1e2be09169d15aad9a"
+  },
+  "_source": "git://github.com/jenius/rupture.git",
+  "_target": "~0.6.1",
+  "_originalSource": "rupture-by-jenius",
+  "_direct": true
+}
