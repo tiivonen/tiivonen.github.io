@@ -186,7 +186,12 @@ html {
 }
 h1 {
   position: absolute;
-  left: 30%;
+  left: 20%;
   top: 20%;
   color: #fff;
+  font-size: 1.2em;
+  letter-spacing: 0.4em;
+  display: inline-block;
+  padding: 15px 25px;
+  border: 1px solid #fff;
 }
