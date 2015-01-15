@@ -1,12 +1,26 @@
 html
 	background url(../images/inthisriver.jpg) no-repeat center center fixed;
-
+	background-size cover
+	+below(900px)
+		background url(../images/inthisriver1300.jpg) no-repeat center center fixed;
+		background-size cover
+	+below(700px)
+		background url(../images/inthisriver960.jpg) no-repeat center center fixed;
+		background-size cover
+body
+	text-align center
 .container
 	display inline-block
-	position absolute
-	left 20%
-	top 20%
-	text-align center
+	margin 40px auto
+	+above(500px)
+		position absolute
+		margin 0
+		left 20%
+		top 40px
+		text-align center
+		+above(960px)
+			top 20%
+
 
 	h1
 		color white
