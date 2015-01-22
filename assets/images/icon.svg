@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="192"  xml:space="preserve">
+    <path id="roundedRectangle" stroke="none" fill="rgb(255, 255, 255)" d="M 0.5,41.5 C 0.5,43.71 2.29,45.5 4.5,45.5 L 188.5,45.5 C 190.71,45.5 192.5,43.71 192.5,41.5 L 192.5,0.5 4.5,0.5 C 2.29,0.5 0.5,2.29 0.5,4.5 Z M 0.5,41.5" />
+    <path id="roundedRectangle2" stroke="none" fill="rgb(255, 255, 255)" d="M 0.5,114.5 C 0.5,116.71 2.29,118.5 4.5,118.5 L 188.5,118.5 C 190.71,118.5 192.5,116.71 192.5,114.5 L 192.5,73.5 4.5,73.5 C 2.29,73.5 0.5,75.29 0.5,77.5 Z M 0.5,114.5" />
+    <path id="roundedRectangle3" stroke="none" fill="rgb(255, 255, 255)" d="M 0.5,187.5 C 0.5,189.71 2.29,191.5 4.5,191.5 L 188.5,191.5 C 190.71,191.5 192.5,189.71 192.5,187.5 L 192.5,146.5 4.5,146.5 C 2.29,146.5 0.5,148.29 0.5,150.5 Z M 0.5,187.5" />
+</svg>

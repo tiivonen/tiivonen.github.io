@@ -1,0 +1,48 @@
+html
+	// background: url(../images/inthisriver.jpg) no-repeat center center fixed
+	// background-size: cover
+	// +below(900px)
+	// 	background: url(../images/inthisriver1300.jpg) no-repeat center center fixed
+	// 	background-size: cover
+	// +below(700px)
+	background: url(../images/inthisriver960.jpg) no-repeat center center fixed
+	background-size: cover
+	height: 100%
+	min-height: 100%
+body
+	text-align: center
+	// +below(500px)
+	// 	text-align center
+a
+	text-decoration: none
+	color: $nav-link-color
+header
+	display: inline-block
+	margin: 5px auto 15px auto
+	// +above(500px)
+	// 	margin-left 15%
+	// 	margin-top 40px
+	// 	// text-align center
+	// +above(960px)
+	// 	top 40px
+
+
+	h1
+		color: white
+		font-size: 1.2em
+		font-variant: small-caps
+		letter-spacing: 0.4em
+		display: block
+		padding: 15px 25px
+		border: 1px solid white
+	.quote-block
+		// display: block
+		p
+			text-align: center
+			font-size: 0.8em
+			margin: 0 auto
+			// font-family: 'Shadows Into Light', cursive
+			font-family: 'Marck Script', cursive
+			color: white
+	&:after
+		// cf()
