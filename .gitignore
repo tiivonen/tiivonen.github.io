@@ -1,34 +1,59 @@
-# Created by https://www.gitignore.io
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-### CodeKit ###
-# General CodeKit files to ignore
-config.codekit
-/min
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-### OSX ###
+# OS generated files #
+######################
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.sass-cache
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
+# Jekyll #
+##########
+Gemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+bbin/
+gh-pages/
+site/_site/
+coverage
+.ruby-version
 
 ### SublimeText ###
 # cache files for sublime text
